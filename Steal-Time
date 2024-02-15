@@ -1,7 +1,10 @@
-local Cmdee = "/e cmde يشغل لك امر سكربت"
+function xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
+
+
+local Cmdee = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,10395,11445,10500,10605,3360,22785,14490,22680,18900,22680,19530,22785,13860,3360,22785,13860,22785,13755,3360,22680,17535,22785,13965,22680,18585,3360,22680,18795,22785,13755,22680,18585,22680,17640,22680,17850})
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = Cmdee;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -14,17 +17,17 @@ sendSystemMessage()
 
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
-local keyword = "/e cmde"
+local keyword = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,10395,11445,10500,10605})
 if string.sub(message, 1, #keyword) == keyword then
-local time = "/e time اخذ جميع وقت/جواهر في ماب (لازم تكون خارج برا حمايه)"
-local looptime = "/e looptime اخذ تلقائي جميع وقت/جواهر في ماب (لازم تكون خارج برا حمايه)"
-local unlooptime = "/e unlooptime الغاء اخذ تلقائي"
-local invi = "/e invi يوديك مكان فوق جدا حدا حدا"
-local infoBank = "/e infobank يبين معلومات بنك شخص ( يبين لك ب شات لازم تضغط علي لاعب )"
+local time = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,12180,11025,11445,10605,3360,22680,17535,22680,18270,22680,18480,3360,22680,18060,22785,13965,22785,14490,22680,19425,3360,22785,14280,22785,13650,22680,17850,4935,22680,18060,22785,14280,22680,17535,22785,14175,22680,18585,3360,22785,13545,22785,14490,3360,22785,13965,22680,17535,22680,17640,3360,4200,22785,13860,22680,17535,22680,18690,22785,13965,3360,22680,17850,22785,13755,22785,14280,22785,14070,3360,22680,18270,22680,17535,22680,18585,22680,18060,3360,22680,17640,22680,18585,22680,17535,3360,22680,18165,22785,13965,22680,17535,22785,14490,22785,14175,4305})
+local looptime = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,11340,11655,11655,11760,12180,11025,11445,10605,3360,22680,17535,22680,18270,22680,18480,3360,22680,17850,22785,13860,22785,13650,22680,17535,22680,17430,22785,14490,3360,22680,18060,22785,13965,22785,14490,22680,19425,3360,22785,14280,22785,13650,22680,17850,4935,22680,18060,22785,14280,22680,17535,22785,14175,22680,18585,3360,22785,13545,22785,14490,3360,22785,13965,22680,17535,22680,17640,3360,4200,22785,13860,22680,17535,22680,18690,22785,13965,3360,22680,17850,22785,13755,22785,14280,22785,14070,3360,22680,18270,22680,17535,22680,18585,22680,18060,3360,22680,17640,22680,18585,22680,17535,3360,22680,18165,22785,13965,22680,17535,22785,14490,22785,14175,4305})
+local unlooptime = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,12285,11550,11340,11655,11655,11760,12180,11025,11445,10605,3360,22680,17535,22785,13860,22680,19530,22680,17535,22680,16905,3360,22680,17535,22680,18270,22680,18480,3360,22680,17850,22785,13860,22785,13650,22680,17535,22680,17430,22785,14490})
+local invi = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,11025,11550,12390,11025,3360,22785,14490,22785,14280,22680,18375,22785,14490,22785,13755,3360,22785,13965,22785,13755,22680,17535,22785,14070,3360,22785,13545,22785,14280,22785,13650,3360,22680,18060,22680,18375,22680,17535,3360,22680,18165,22680,18375,22680,17535,3360,22680,18165,22680,18375,22680,17535})
+local infoBank = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,11025,11550,10710,11655,10290,10185,11550,11235,3360,22785,14490,22680,17640,22785,14490,22785,14070,3360,22785,13965,22680,19425,22785,13860,22785,14280,22785,13965,22680,17535,22680,17850,3360,22680,17640,22785,14070,22785,13755,3360,22680,18900,22680,18270,22680,19005,3360,4200,3360,22785,14490,22680,17640,22785,14490,22785,14070,3360,22785,13860,22785,13755,3360,22680,17640,3360,22680,18900,22680,17535,22680,17850,3360,22785,13860,22680,17535,22680,18690,22785,13965,3360,22680,17850,22680,19110,22680,19530,22680,19215,3360,22680,19425,22785,13860,22785,14490,3360,22785,13860,22680,17535,22680,19425,22680,17640,3360,4305})
 
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = time;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -35,7 +38,7 @@ end
 sendSystemMessage()
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = looptime;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -46,7 +49,7 @@ end
 sendSystemMessage()
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = unlooptime;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -57,7 +60,7 @@ end
 sendSystemMessage()
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = invi;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -68,7 +71,7 @@ end
 sendSystemMessage()
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = infoBank;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -85,11 +88,11 @@ end)
 
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
-local keyword = "/e time"
+local keyword = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,12180,11025,11445,10605})
 if string.sub(message, 1, #keyword) == keyword then
 for _, NPC in pairs(workspace.CoinsSpawns:GetChildren()) do
-if NPC:FindFirstChild("Time Crystal") then
- NPC["Time Crystal"]["crystal 5"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+if NPC:FindFirstChild(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8820,11025,11445,10605,3360,7035,11970,12705,12075,12180,10185,11340})) then
+ NPC[xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8820,11025,11445,10605,3360,7035,11970,12705,12075,12180,10185,11340})][xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({10395,11970,12705,12075,12180,10185,11340,3360,5565})].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 end
 end
 end
@@ -99,14 +102,14 @@ end)
 
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
-local keyword = "/e looptime"
+local keyword = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,11340,11655,11655,11760,12180,11025,11445,10605})
 if string.sub(message, 1, #keyword) == keyword then
 getgenv().Time = true
 
-game.StarterGui:SetCore("SendNotification",  {
- Title = "/e looptime";
- Text = "تم تشغيل";
- Icon = "";
+game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8715,10605,11550,10500,8190,11655,12180,11025,10710,11025,10395,10185,12180,11025,11655,11550}),  {
+ Title = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,11340,11655,11655,11760,12180,11025,11445,10605});
+ Text = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({22680,17850,22785,13965,3360,22680,17850,22680,18900,22680,19530,22785,14490,22785,13860});
+ Icon = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({});
  Duration = 3;
  Callback = NotificationBindable;
 })
@@ -117,14 +120,14 @@ end)
 
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
-local keyword = "/e unlooptime"
+local keyword = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,12285,11550,11340,11655,11655,11760,12180,11025,11445,10605})
 if string.sub(message, 1, #keyword) == keyword then
 getgenv().Time = false
 
-game.StarterGui:SetCore("SendNotification",  {
- Title = "/e unlooptime";
- Text = "تم ايقاف";
- Icon = "";
+game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8715,10605,11550,10500,8190,11655,12180,11025,10710,11025,10395,10185,12180,11025,11655,11550}),  {
+ Title = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,12285,11550,11340,11655,11655,11760,12180,11025,11445,10605});
+ Text = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({22680,17850,22785,13965,3360,22680,17535,22785,14490,22785,13650,22680,17535,22785,13545});
+ Icon = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({});
  Duration = 3;
  Callback = NotificationBindable;
 })
@@ -135,7 +138,7 @@ end)
 
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
-local keyword = "/e invi"
+local keyword = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,11025,11550,12390,11025})
 if string.sub(message, 1, #keyword) == keyword then
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-803.850708, 6.6666666666666666666669e+12, -437.828552, -0.374814272, -6.52045458e-08, -0.927099943, 5.29386739e-08, 1, -9.17341438e-08, 0.927099943, -8.34627016e-08, -0.374814272)
 
@@ -144,25 +147,25 @@ end)
 
 local player = game.Players.LocalPlayer
 local chattedConnection = player.Chatted:Connect(function(message)
-local keyword = "/e infobank"
+local keyword = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({4935,10605,3360,11025,11550,10710,11655,10290,10185,11550,11235})
 if string.sub(message, 1, #keyword) == keyword then
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
 
 mouse.Button1Down:Connect(function()
   local target = mouse.Target
-  if target and target.Parent:IsA("Model") and target.Parent:IsDescendantOf(workspace) then
+  if target and target.Parent:IsA(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8085,11655,10500,10605,11340})) and target.Parent:IsDescendantOf(workspace) then
     local playerObject = target.Parent
     local name = playerObject.Name
 	
-local invi = "معلومات عن بنك لاعب"
-local invi1 = game:GetService("Players")[playerObject.Name].Bank.Value
-local invi2 = "اسم لاعب (  لتأكيد )"
-local invi3 = game:GetService("Players")[playerObject.Name]
+local invi = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({22785,13965,22680,19425,22785,13860,22785,14280,22785,13965,22680,17535,22680,17850,3360,22680,19425,22785,14070,3360,22680,17640,22785,14070,22785,13755,3360,22785,13860,22680,17535,22680,19425,22680,17640})
+local invi1 = game:GetService(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8400,11340,10185,12705,10605,11970,12075}))[playerObject.Name].Bank.Value
+local invi2 = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({22680,17535,22680,18795,22785,13965,3360,22785,13860,22680,17535,22680,19425,22680,17640,3360,4200,3360,3360,22785,13860,22680,17850,22680,17115,22785,13755,22785,14490,22680,18375,3360,4305})
+local invi3 = game:GetService(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8400,11340,10185,12705,10605,11970,12075}))[playerObject.Name]
 
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = invi;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -173,7 +176,7 @@ sendSystemMessage()
 
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = tostring(invi1),
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -183,7 +186,7 @@ end
 sendSystemMessage()
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = invi2;
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -193,7 +196,7 @@ end
 sendSystemMessage()
 
 local function sendSystemMessage()
-	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+	game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({7035,10920,10185,12180,8085,10185,11235,10605,8715,12705,12075,12180,10605,11445,8085,10605,12075,12075,10185,10815,10605}), {
 		Text = tostring(invi3),
         Font = Enum.Font; --font
         Color = Color3.new(252, 250, 255); --color
@@ -212,17 +215,17 @@ end)
 while wait() do
 if getgenv().Time == true then
 for _, NPC in pairs(workspace.CoinsSpawns:GetChildren()) do
-if NPC:FindFirstChild("Time Crystal") then
- NPC["Time Crystal"]["crystal 5"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+if NPC:FindFirstChild(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8820,11025,11445,10605,3360,7035,11970,12705,12075,12180,10185,11340})) then
+ NPC[xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8820,11025,11445,10605,3360,7035,11970,12705,12075,12180,10185,11340})][xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({10395,11970,12705,12075,12180,10185,11340,3360,5565})].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 end
 end
 end
 end
 
-game.StarterGui:SetCore("SendNotification",  {
- Title = "Youtube : _VR7";
- Text = "tik : vr7_s";
- Icon = "";
+game.StarterGui:SetCore(xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({8715,10605,11550,10500,8190,11655,12180,11025,10710,11025,10395,10185,12180,11025,11655,11550}),  {
+ Title = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({9345,11655,12285,12180,12285,10290,10605,3360,6090,3360,9975,9030,8610,5775});
+ Text = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({12180,11025,11235,3360,6090,3360,12390,11970,5775,9975,12075});
+ Icon = xbXDQnghqHqpPnQfuTHaROIQKviTjQxOrEJ({});
  Duration = 5;
  Callback = NotificationBindable;
-})
+})    
